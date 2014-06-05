@@ -1,0 +1,10 @@
+//cor de fundo pagina imoveis
+#7AC1CC
+//cor de fundo pagina compras
+#ED8770
+//cor de fundo pagina enxoval
+#FDD559
+//cor de fundo pagina sobre
+#7AC1CC
+//cor de fundo pagina contato
+#69AF89

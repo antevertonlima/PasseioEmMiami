@@ -9,30 +9,29 @@
         <link rel="stylesheet" href="assets/css/foundation.min.css">
         <link rel="stylesheet" href="assets/css/app.css">
         <script src="assets/js/vendor/modernizr.js"></script>
-
     </head>
     <body>
         <!-- Inicio do body -->
         <img src="assets/img/bg.gif" class="fundoFakeBody" />
         <div class="fakeBody">
             <nav class="top-bar">
-                <div class="row small-8 columns small-offset-2">
+                <div class="row small-8 medium-10 columns small-offset-2 medium-offset-1">
                     <ul class="title-area">
-                        <li class="name"><h1><a href="./"><img src="assets/img/logo-chapada.gif" /></a></h1></li>
-
+                        <li class="name"><h1><a href="./"><img src="assets/img/logo-passeio-em-miami.png" /></a></h1></li>
                         <!-- Mobile Menu Toggle -->
                         <!--<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>-->
                     </ul>
-                    
+                    <!-- menu top-bar  -->
                     <dl class="sub-nav right subnav-lineheght">
-                        <dd class="active"><a href="#">All</a></dd>
-                        <dd><a href="#">Active</a></dd>
-                        <dd><a href="#">Pending</a></dd>
-                        <dd><a href="#">Suspended</a></dd>
+                        <dd class="active"><a href="#">Sobre</a></dd>
+                        <dd><a href="#">Imóveis</a></dd>
+                        <dd><a href="#">Compras</a></dd>
+                        <dd><a href="#">Enxoval</a></dd>
+                        <dd><a href="#">Contato</a></dd>
                     </dl>
                 </div>
             </nav>
-            <div class="row">
+            <div class="row shadow bg-white">
 
             </div>            
         </div>

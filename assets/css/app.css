@@ -1,6 +1,6 @@
 .fundoFakeBody{position: fixed; top: 0; left: 0; z-index: 0; display: block; border: 0; margin: 0; width: 100%; height: 100%;}
 .fakeBody{position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;}
-.top-bar{background: #d2d3d5; height: 55px; line-height: 55px;-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.75);box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);}
+.top-bar{background: #d2d3d5; height: 55px; line-height: 55px;-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:0px 0px 8px 0px rgba(50, 50, 50, 0.75);box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);}
 .top-bar img{margin-top: 5px;}
 .sub-nav dt,  .sub-nav dd,  .sub-nav li { font-weight: bold; font-size: 1rem; color: #efefef; text-shadow: 0px 0px 4px rgba(150, 150, 150, 1); text-transform: uppercase;}
 .sub-nav dt a,   .sub-nav dd a,   .sub-nav li a { text-decoration: none; color: #efefef; padding: 0.1875rem 1rem; }
@@ -8,7 +8,18 @@
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a { font-weight: bold; background: #008cba; padding: 0.1875rem 1rem; cursor: default; color: white; }
 .subnav-lineheght{line-height: 55px;}
 .fi-list-bullet{color: #000; font-size: 25px;}
+.panel.callout{margin:5px 0; padding:10px 0; text-align:center; background: 	#BBFFFF; border-color:#00BFFF;}
+.panel{margin:5px 0; padding:5px; line-height:1rem;}
 .bg-white{background: #efefef;}
+.bg-sobre{background: #7AC1CC; min-height:400px;}
+.bg-imoveis{background: #7AC1CC; min-height:400px;}
+.bg-compras{background: #ED8770; min-height:400px;}
+.bg-enxoval{background: #FDD559; min-height:400px;}
+.bg-contato{background: #69AF89; min-height:400px;}
+.bordas-radius{border-radius:5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.area-total{width:100%;}
+.img-sobre{position:absolute; right:0;}
+.img-content{position:absolute; left:-5px;}
 .shadow{-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.75);box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);}
 .cor{background: #ccc; height: 100%}
 .cor2{background: #0078a0; height: 100%}

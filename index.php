@@ -24,15 +24,15 @@
                     </ul>
                     <!-- menu top-bar  -->
                     <dl class="sub-nav right subnav-lineheght">
-                        <dd><a href="#">Sobre</a></dd>
-                        <dd><a href="#">Imóveis</a></dd>
-                        <dd><a href="#">Compras</a></dd>
-                        <dd><a href="#">Enxoval</a></dd>
-                        <dd><a href="#">Contato</a></dd>
+                        <dd><a href="./sobre.php">Sobre</a></dd>
+                        <dd><a href="./imoveis.php">Imóveis</a></dd>
+                        <dd><a href="./compras.php">Compras</a></dd>
+                        <dd><a href="./enxoval.php">Enxoval</a></dd>
+                        <dd><a href="./contato.php">Contato</a></dd>
                     </dl>
                 </div>
             </nav>
-            <div class="row shadow bg-white">
+            <div class="row shadow bg-white" style="padding:20px 0;">
                 <ul class="example-orbit shadow" data-orbit>
                     <li> 
                         <img alt="Visão noturna de miami." src="assets/img/golfinhos.jpg" />
@@ -54,24 +54,24 @@
                 
                 <div class="row medium-10 columns ">
                     <div class="medium-3 columns">
+						<h4 class="panel callout radius">This is a content.</h4>
                         <img src="http://lorempixel.com/400/300/animals" class="th radius">
-                        <h4>This is a content section.</h4>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <p class="panel radius">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                     </div>
                     <div class="medium-3 columns">
+						<h4 class="panel callout radius">This is a content.</h4>
                         <img src="http://lorempixel.com/400/300/city" class="th radius">
-                        <h4>This is a content section.</h4>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <p class="panel radius">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                     </div>
                     <div class="medium-3 columns">
+						<h4 class="panel callout radius">This is a content.</h4>
                         <img src="http://lorempixel.com/400/300/people" class="th radius">
-                        <h4>This is a content section.</h4>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <p class="panel radius">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                     </div>
                     <div class="medium-3 columns">
+						<h4 class="panel callout radius">This is a content.</h4>
                         <img src="http://lorempixel.com/400/300/transport" class="th radius">
-                        <h4>This is a content section.</h4>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                        <p class="panel radius">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
                     </div>
                 </div>
             </div>

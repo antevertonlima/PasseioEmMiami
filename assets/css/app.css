@@ -1,25 +1,36 @@
 .fundoFakeBody{position: fixed; top: 0; left: 0; z-index: 0; display: block; border: 0; margin: 0; width: 100%; height: 100%;}
 .fakeBody{position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;}
+.painel{background:#efefef url(../img/mapa-passeio-em-miami.png) no-repeat; background-size: 100%; background-position-y: -100px; -moz-background-size: 100%;  -moz-background-position-y: -100px; padding:12px 0;}
 .top-bar{background: #d2d3d5; height: 55px; line-height: 55px;-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:0px 0px 8px 0px rgba(50, 50, 50, 0.75);box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);}
+.title-area{height: 65px;}
 .top-bar img{margin-top: 5px;}
+.top-bar.expanded{background: #d2d3d5;}
+.top-bar.expanded .title-area {background: #d2d3d5; line-height: 55px;}
 .sub-nav dt,  .sub-nav dd,  .sub-nav li { font-weight: bold; font-size: 1rem; color: #efefef; text-shadow: 0px 0px 4px rgba(150, 150, 150, 1); text-transform: uppercase;}
 .sub-nav dt a,   .sub-nav dd a,   .sub-nav li a { text-decoration: none; color: #efefef; padding: 0.1875rem 1rem; }
 .sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover { color: #0078a0; }
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a { font-weight: bold; background: #008cba; padding: 0.1875rem 1rem; cursor: default; color: white; }
-.subnav-lineheght{line-height: 55px;}
+.subnav-lineheight{line-height: 55px;}
 .fi-list-bullet{color: #000; font-size: 25px;}
-.panel.callout{margin:5px 0; padding:10px 0; text-align:center; background: 	#BBFFFF; border-color:#00BFFF;}
-.panel{margin:5px 0; padding:5px; line-height:1rem;}
+.panel.callout{margin:5px 0; padding:10px 0; text-align:center; background: #BBFFFF; border-color:#00BFFF;}
+.panel{margin:5px 0; padding:5px; line-height:1rem; background:#d2d3d5; border-color:#ccc;}
 .bg-white{background: #efefef;}
-.bg-sobre{background: #7AC1CC; min-height:400px;}
-.bg-imoveis{background: #7AC1CC; min-height:400px;}
-.bg-compras{background: #ED8770; min-height:400px;}
-.bg-enxoval{background: #FDD559; min-height:400px;}
-.bg-contato{background: #69AF89; min-height:400px;}
+.bg-sobre{background: #7AC1CC; min-height:0.5rem;}
+.bg-imoveis{background: #7AC1EC; min-height:0.5rem;}
+.bg-compras{background: #ED8770; min-height:0.5rem;}
+.bg-enxoval{background: orange/*#FDD559*/; min-height:0.5rem;}
+.bg-contato{background: #69AF89; min-height:0.5rem;}
 .bordas-radius{border-radius:5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
 .area-total{width:100%;}
+.orange{color: orange;}
+.p-home{font-size: 20px; font-weight: bold;}
+.p-h-base{font-size: 50px; text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);}
+.contato{font-size: 30px; margin-top: 3.57142857rem; text-shadow: 0px 0px 4px rgba(150, 150, 150, 1);}
 .img-sobre{position:absolute; right:0;}
 .img-content{position:absolute; left:-5px;}
+.footer-bar{}
+.sub-footer-bar{background: #ccc;}
+.bg-descricao{background: url(../img/painel-passeio-em-miami.gif) no-repeat; background-size: auto 100%; height: 20.21428571rem;}
 .shadow{-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.75);box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);}
 .cor{background: #ccc; height: 100%}
 .cor2{background: #0078a0; height: 100%}

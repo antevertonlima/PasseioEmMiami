@@ -15,7 +15,7 @@
         <!-- Inicio do body -->
         <img src="assets/img/bg.gif" class="fundoFakeBody" />
         <div class="fakeBody">
-            <nav class="top-bar">
+            <nav class="top-bar" data-topbar>
                 <div class="row medium-10 columns medium-offset-1">
                     <ul class="title-area">
                         <li class="name"><h1><a href="./"><img src="assets/img/logo-passeio-em-miami.png" /></a></h1></li>
@@ -23,7 +23,7 @@
                         <li class="toggle-topbar menu-icon"><a href="#"><i class="fi-list-bullet large"></i></a></li>
                     </ul>
                     <!-- menu top-bar  -->
-                    <dl class="sub-nav right subnav-lineheght">
+                    <dl class="sub-nav right subnav-lineheight">
                         <dd><a href="./sobre.php">Sobre</a></dd>
                         <dd><a href="./imoveis.php">Imóveis</a></dd>
                         <dd><a href="./compras.php">Compras</a></dd>
@@ -32,7 +32,13 @@
                     </dl>
                 </div>
             </nav>
-            <div class="row shadow bg-white" style="padding:20px 0;">
+            <div class="row shadow painel">
+                <div class="small-12 medium-12 columns text-center">
+                    <p class="p-home">Vindo a <span class="orange">Miami</span> para <span class="orange">passear</span>? Temos interessantes roteiros de passeio para que voce possa conhecer os pontos turisticos mais destacados da cidade.</p>
+                    <p class="p-home">Voce sera recebido no aeroporto levado para o hotel e acompanhado durante toda a sua estadia nos <span class="orange">Estados Unidos</span> por <span class="orange">guia brasileiros</span> que falam 
+                        <span class="orange">inglês</span>, <span class="orange">português</span> e <span class="orange">espanhol</span>, residentes legais desse paid desde 1999.</p>
+                    <p class="p-home">Usaremos a Nossa experiencia e conhecimento para melhor lhe servir.</p>
+                </div>
                 <ul class="example-orbit shadow" data-orbit>
                     <li> 
                         <img alt="Visão noturna de miami." src="assets/img/golfinhos.jpg" />
@@ -50,43 +56,33 @@
                         <img alt="As praias de Miami." src="assets/img/praia-miami.jpg" /> 
                         <div class="orbit-caption"> As praias de Miami. </div> 
                     </li> 
-                </ul>
-                
-                <div class="row medium-10 columns ">
-                    <div class="medium-3 columns">
-						<h4 class="panel callout radius">This is a content.</h4>
-                        <img src="http://lorempixel.com/400/300/animals" class="th radius">
-                        <p class="panel radius">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                </ul>               
+                <div class="small-12 medium-12 columns bg-descricao shadow">
+                    <p class="p-h-base text-center">Aproveite as nossas dicas para conhecer essa cidade incrível.</p>
+                    <a href="./" class="button expand radius contato">Clique agora mesmo e faça seu orçamento</a>
+                </div>
+                <span class="clearfix"></span>
+                <hr class="shadow" />
+                <div class="small-12 medium-12">
+                    <div class="small-12 medium-6 columns">
+                        <div class="panel small-12 columns bordas-radius">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.60398683863!2d-80.23108009999999!3d25.782323950000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C+Florida!5e0!3m2!1spt-BR!2sbr!4v1403466622754" width="100%" height="303" frameborder="0" style="border:0"></iframe>
+                        </div>
                     </div>
-                    <div class="medium-3 columns">
-						<h4 class="panel callout radius">This is a content.</h4>
-                        <img src="http://lorempixel.com/400/300/city" class="th radius">
-                        <p class="panel radius">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-                    </div>
-                    <div class="medium-3 columns">
-						<h4 class="panel callout radius">This is a content.</h4>
-                        <img src="http://lorempixel.com/400/300/people" class="th radius">
-                        <p class="panel radius">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-                    </div>
-                    <div class="medium-3 columns">
-						<h4 class="panel callout radius">This is a content.</h4>
-                        <img src="http://lorempixel.com/400/300/transport" class="th radius">
-                        <p class="panel radius">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                    <div class="small-12 medium-6 columns">
+                        <div class="panel small-12 columns bordas-radius">
+                            <h4>Deixe o seu depoimento.</h4>
+                            <form method="post" action="">
+                                <input type="text" name="nome" placeholder="Seu nome" />
+                                <textarea rows="6" name="depoimento" placeholder="Exemplo: Gostei muito do seviço, devido a atenção empregada a minha familia."></textarea>
+                                <input type="submit" name="enviar" value="Enviar" class="button expand success radius"/>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-            <footer class="top-bar">
-                <div class="large-6 columns">
-                    <p>&copy; Copyright no one at all. Go to town.</p>
-                </div>
-                <div class="large-6 columns">
-                    <ul class="inline-list right">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                        <li><a href="#">Link 4</a></li>
-                    </ul>
-                </div>
+            <footer class="small-12 columns sub-footer-bar text-center shadow">
+                <p>&copy; Copyright no one at all. Go to town.</p>
             </footer>
         </div>
         <!-- Fim do body -->
